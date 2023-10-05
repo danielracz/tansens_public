@@ -7,15 +7,12 @@ import jax
 import jax.numpy as jnp
 import optax
 
-DEFAULT_FOLDER = "/mnt/idms/home/raczdaniel/tansens/code/results/default"
-
 parser = argparse.ArgumentParser()
 parser.add_argument('--gpu', type=int, default=0)
 parser.add_argument('--W', type=int, default=3000)
 parser.add_argument('--epoch_from', type=int, default=0)
 parser.add_argument('--epoch_till', type=int, default=15)
 parser.add_argument('--batch_size_tansens', type=int, default=2)
-parser.add_argument('--resfolder', type=str, default=DEFAULT_FOLDER)
 parser.add_argument('--dataset', type=str, default="cifar10",
                     choices=["cifar10", "mnist"])
 args = parser.parse_args()
