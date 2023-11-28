@@ -1,8 +1,8 @@
 # tansens_public
 
 This repo contains the Python code of the experiments presented in the paper
-"Optimization dependent generalization bound for ReLU networks based on sensitivity in the tangent bundle"
-submitted to TBA.
+[Optimization dependent generalization bound for ReLU networks based on sensitivity in the tangent bundle](https://arxiv.org/abs/2310.17378)
+accepted at the [OPT2023](https://opt-ml.org/) workshop at the [NeurIPS 2023](https://nips.cc/) conference.
 
 ## Requirements
 
