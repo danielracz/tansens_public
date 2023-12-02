@@ -4,6 +4,8 @@ This repo contains the Python code of the experiments presented in the paper
 [Optimization dependent generalization bound for ReLU networks based on sensitivity in the tangent bundle](https://arxiv.org/abs/2310.17378)
 accepted at the [OPT2023](https://opt-ml.org/) workshop at the [NeurIPS 2023](https://nips.cc/) conference.
 
+The main contributors to this repo - based on the magnitude of their contribution - are András Csertán and Dániel Rácz.
+
 ## Requirements
 
 See the file [jax.yml](jax.yml) exported from an [Anaconda](https://www.anaconda.com/download#downloads) environment.
